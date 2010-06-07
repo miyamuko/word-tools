@@ -1,0 +1,25 @@
+package: word-tools
+version: 1.0.0
+
+sources:
+  include:
+    - site-lisp/word-tools/**/*.l
+  exclude:
+    - site-lisp/word-tools/**/tests/*.l
+    - site-lisp/word-tools/**/examples/*.l
+
+document:
+  - site-lisp/word-tools/docs/README.rd
+
+files:
+  include:
+    - site-lisp/**/*.l
+    - site-lisp/**/*.lc
+    - site-lisp/word-tools/lib/*.dll
+    - site-lisp/word-tools/examples/**/*.*
+    - site-lisp/word-tools/docs/**/*
+    - site-lisp/word-tools/docs/**/*.*
+    - site-lisp/word-tools/src/**/*.*
+  exclude:
+    - site-lisp/word-tools-scratch.l
+    - site-lisp/word-tools/tests/*.*
