@@ -21,5 +21,4 @@ files:
     - site-lisp/word-tools/docs/**/*.*
     - site-lisp/word-tools/src/**/*.*
   exclude:
-    - site-lisp/word-tools-scratch.l
     - site-lisp/word-tools/tests/*.*
