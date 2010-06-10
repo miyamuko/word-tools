@@ -1,31 +1,31 @@
 2008-07-12  MIYAMUKO Katsuyuki
 
-	* (wtools-word-application): Word ‚ªƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ä‚¢‚È‚¢ê‡‚Í
-	ƒGƒ‰[ƒƒbƒZ[ƒW‚Å•\Ž¦
+	* (wtools-word-application): Word ãŒã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚Œã¦ã„ãªã„å ´åˆã¯
+	ã‚¨ãƒ©ãƒ¼ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã§è¡¨ç¤º
 
-	* (wtools-setup-menu): ƒƒjƒ…[‚ÌƒAƒNƒZƒXƒL[‚ªƒEƒBƒ“ƒhƒE‚Æ
-	‚©‚Ô‚Á‚Ä‚¢‚é‚Ì‚Å &D ‚É‚µ‚½B
+	* (wtools-setup-menu): ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã®ã‚¢ã‚¯ã‚»ã‚¹ã‚­ãƒ¼ãŒã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã¨
+	ã‹ã¶ã£ã¦ã„ã‚‹ã®ã§ &D ã«ã—ãŸã€‚
 
 2004-08-09  MIYAMUKO Katsuyuki
 
-	* ƒTƒCƒgˆÚ“]‚É”º‚¤‚±‚Ü‚²‚Ü‚Æ‚µ‚½C³
+	* ã‚µã‚¤ãƒˆç§»è»¢ã«ä¼´ã†ã“ã¾ã”ã¾ã¨ã—ãŸä¿®æ­£
 
 2003-08-12  MIYAMUKO Katsuyuki
 
-	* ni-autoload —pƒtƒ@ƒCƒ‹‚ð‚â‚Á‚Æ’Ç‰ÁB
+	* ni-autoload ç”¨ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚„ã£ã¨è¿½åŠ ã€‚
 
 2003-05-12  MIYAMUKO Katsuyuki
 
-	* —v–ñ‚Ìì¬‚ð’Ç‰ÁB
+	* è¦ç´„ã®ä½œæˆã‚’è¿½åŠ ã€‚
 
-	* ƒƒjƒ…[‚Ì\‘¢‚ð•Ï‚¦‚½B
+	* ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã®æ§‹é€ ã‚’å¤‰ãˆãŸã€‚
 
 2003-05-03  MIYAMUKO Katsuyuki
 
-	* ƒƒjƒ…[ƒo[‚ð’Ç‰Á‚µ‚½B
+	* ãƒ¡ãƒ‹ãƒ¥ãƒ¼ãƒãƒ¼ã‚’è¿½åŠ ã—ãŸã€‚
 
-	* ‚Ç‚¤‚Å‚à‚¢‚¢‚à‚Ì‚ð’Ç‰ÁB
+	* ã©ã†ã§ã‚‚ã„ã„ã‚‚ã®ã‚’è¿½åŠ ã€‚
 
 2003-04-28  MIYAMUKO Katsuyuki
 
-	* ‰ŠúƒŠƒŠ[ƒX
+	* åˆæœŸãƒªãƒªãƒ¼ã‚¹

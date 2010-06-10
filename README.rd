@@ -1,41 +1,41 @@
-= word-tools - Microsoft Word �̋@�\�� xyzzy ���痘�p����
+= word-tools - Microsoft Word の機能を xyzzy から利用する
 
-* Author: �݂�ނ� ���䂫 ((<URL:mailto:miyamuko@gmail.com>))
+* Author: みやむこ かつゆき ((<URL:mailto:miyamuko@gmail.com>))
 * Home URL: ((<URL:http://miyamuko.s56.xrea.com/xyzzy/word-tools/intro.htm>))
 * Version: 1.0.0
 
 
 == DESCRIPTION
 
-�ȉ��� Microsoft Word �̃c�[���ނ� xyzzy ����g����悤�ɂ��܂��B
+以下の Microsoft Word のツール類を xyzzy から使えるようにします。
 
-* �c�[�� - ���͍Z��
-* �c�[�� - �v��̍쐬
-* �c�[�� - ���̑��̍Z���c�[�� - �ދ`�ꎫ�T
-* �c�[�� - �����J�E���g
-* �}�� - ���t�Ǝ���
-* �w���v - �o�[�W�������
+* ツール - 文章校正
+* ツール - 要約の作成
+* ツール - その他の校正ツール - 類義語辞典
+* ツール - 文字カウント
+* 挿入 - 日付と時刻
+* ヘルプ - バージョン情報
 
 
 == INSTALL
 
-((<NetInstaller|URL:http://www7a.biglobe.ne.jp/~hat/xyzzy/ni.html>)) �ŃC���X�g�[�������ꍇ�� 3 �ȍ~���A
-NetInstaller + (({ni-autoload})) ���g���Ă���l�� 4 �ȍ~�� OK �ł��B
+((<NetInstaller|URL:http://www7a.biglobe.ne.jp/~hat/xyzzy/ni.html>)) でインストールした場合は 3 以降を、
+NetInstaller + (({ni-autoload})) を使っている人は 4 以降で OK です。
 
-(1) �A�[�J�C�u���_�E�����[�h���܂��B
+(1) アーカイブをダウンロードします。
 
     ((<URL:http://miyamuko.s56.xrea.com/xyzzy/archives/word-tools.zip>))
 
-(2) �A�[�J�C�u��W�J���āA$XYZZY/site-lisp �z���Ƀt�@�C�����R�s�[���܂��B
+(2) アーカイブを展開して、$XYZZY/site-lisp 配下にファイルをコピーします。
 
-(3) ~/.xyzzy �܂��� $XYZZY/site-lisp/siteinit.l �Ɉȉ��̃R�[�h��ǉ����܂��B
+(3) ~/.xyzzy または $XYZZY/site-lisp/siteinit.l に以下のコードを追加します。
 
         ;; word-tools
         (require "word-tools")
 
-(4) �ݒ�𔽉f������ɂ� xyzzy ���ċN�����Ă��������B
+(4) 設定を反映させるには xyzzy を再起動してください。
 
-    ��siteinit.l �ɋL�q�����ꍇ�ɂ͍ă_���v���K�v�ł��B
+    ※siteinit.l に記述した場合には再ダンプが必要です。
 
 
 == MODULE
@@ -43,50 +43,50 @@ NetInstaller + (({ni-autoload})) ���g���Ă���l�� 4 �ȍ~�� OK �ł��B
 === COMMAND
 
 --- wtools-spell-check-buffer
-    �o�b�t�@�S�̂��Z�����܂��B
+    バッファ全体を校正します。
 
 --- wtools-spell-check-paragraph
-    �p���O���t���Z�����܂��B
+    パラグラフを校正します。
 
 --- wtools-spell-check-region
-    ���[�W�������Z�����܂��B
+    リージョンを校正します。
 
 --- wtools-auto-summarize-buffer
-    �o�b�t�@�S�̗̂v����쐬���ăJ�[�\���ʒu�ɑ}�����܂��B
+    バッファ全体の要約を作成してカーソル位置に挿入します。
 
-    �f�t�H���g�̗v�񗦂� 25 % �ł��B
-    ���̒l�� ((|*wtools-summary-length*|)) �ŕύX�ł��܂��B
+    デフォルトの要約率は 25 % です。
+    この値は ((|*wtools-summary-length*|)) で変更できます。
 
 --- wtools-auto-summarize-region
-    ���[�W�����̗v����쐬���ăJ�[�\���ʒu�ɑ}�����܂��B
+    リージョンの要約を作成してカーソル位置に挿入します。
 
 --- wtools-word-count
-    �o�b�t�@�S�̂̕��������J�E���g���܂��B
+    バッファ全体の文字数をカウントします。
 
 --- wtools-thesaurus
-    �J�[�\����̒P��̗ދ`����������܂��B
+    カーソル上の単語の類義語を検索します。
 
 --- wtools-insert-date-time
-    ���t�Ǝ����̑}���B
+    日付と時刻の挿入。
 
 --- wtools-help-about
-    Word �̃o�[�W��������\������B
+    Word のバージョン情報を表示する。
 
 
 === VARIABLE
 
 --- *wtools-summary-length*
-    �v�񗦂��p�[�Z���e�[�W�Ŏw�肵�܂��B�f�t�H���g�� 25% �ł��B
+    要約率をパーセンテージで指定します。デフォルトは 25% です。
 
 
 == TODO
 
-* �v�񗦂��_�C�A���O�{�b�N�X�œ��͂ł���悤�ɂ���B
+* 要約率をダイアログボックスで入力できるようにする。
 
 
 == COPYRIGHT
 
-word-tools �� MIT/X ���C�Z���X�ɏ]���Ė{�\�t�g�E�F�A���g�p�A�Ĕz�z���邱�Ƃ��ł��܂��B
+word-tools は MIT/X ライセンスに従って本ソフトウェアを使用、再配布することができます。
 
 See word-tools/docs/MIT-LICENSE for full license.
 
